@@ -15,3 +15,8 @@ Objects
       - track surrent player
       - user I/O
 
+      => genterate numeber
+        - used for question nums
+      => built question
+      => 
+

@@ -1,14 +1,15 @@
 # players.rb
 # November 2019
 
-class Player
-  attr_accessor :lives
+class Players
+  attr_accessor :lives,  :name
 
-  def initialize(lives)
+  def initialize(lives, num)
     @lives = lives
+    @name = "Player #{num}"
   end
 
-  def loose_life
+  def lose_life
     @lives -= 1
   end
 
